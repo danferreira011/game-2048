@@ -34,3 +34,4 @@ Service
    ↓
 Pod (Aplicação 2048)
 
+[projeto original](https://docs.aws.amazon.com/eks/latest/userguide/quickstart.html#quickstart-deploy-game)
