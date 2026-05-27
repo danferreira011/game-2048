@@ -1,0 +1,19 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: meucluster
+  region: us-east-1
+  version: "1.34"
+
+nodeGroups:
+  - name: ng-1
+    instanceType: t3.medium
+    desiredCapacity: 2
+
+  # - name: ng-2
+  #   instanceType: t3.medium
+  #   desiredCapacity: 2
+
+# autoModeConfig:
+#   enabled: true
